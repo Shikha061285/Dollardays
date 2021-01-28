@@ -18,7 +18,7 @@
 				<configuration>
 				<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>config\login.xml</suiteXmlFile>
+						<suiteXmlFile>config\wallet.xml</suiteXmlFile>
 							</suiteXmlFiles>
 				</configuration>
 			</plugin>
