@@ -1,21 +1,259 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-01-27T23:02:20 EST" name="Suite" finished-at="2021-01-27T23:03:08 EST" duration-ms="48257">
+  <suite started-at="2021-01-28T12:49:06 EST" name="Suite" finished-at="2021-01-28T12:57:39 EST" duration-ms="513110">
     <groups>
     </groups>
-    <test started-at="2021-01-27T23:02:20 EST" name="Dollar Days Test" finished-at="2021-01-27T23:03:08 EST" duration-ms="48257">
-      <class name="com.dollardays.testcases.LoginTestcase">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:20 EST" name="beforeClass" finished-at="2021-01-27T23:02:20 EST" duration-ms="8" status="PASS">
+    <test started-at="2021-01-28T12:49:06 EST" name="Dollar Days Test" finished-at="2021-01-28T12:57:39 EST" duration-ms="513110">
+      <class name="com.dollardays.testcases.MyWalletTestCase">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:49:06 EST" name="beforeClass" finished-at="2021-01-28T12:49:06 EST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:21 EST" name="setUpBrowser" finished-at="2021-01-27T23:02:27 EST" duration-ms="6666" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:49:07 EST" name="setUpBrowser" finished-at="2021-01-28T12:49:14 EST" duration-ms="7416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="InvalidPassword(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:27 EST" name="InvalidPassword" data-provider="dd-dataprovider" finished-at="2021-01-27T23:02:34 EST" duration-ms="6322" status="PASS">
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:49:14 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:50:00 EST" duration-ms="45498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC1, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890123, Password=cGFzc3dvcmQxMjM=, Security Code=3451, Test Case=Verify My Wallet Page display, Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Positive}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:00 EST" name="quit" finished-at="2021-01-28T12:50:00 EST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:00 EST" name="setUpBrowser" finished-at="2021-01-28T12:50:07 EST" duration-ms="7095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:07 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:50:42 EST" duration-ms="35261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC2, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890124, Password=cGFzc3dvcmQxMjM=, Security Code=3452, Test Case=Empty Name on Card, Zip Code=67895, City=Providence, Name on card=, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:42 EST" name="quit" finished-at="2021-01-28T12:50:43 EST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:43 EST" name="setUpBrowser" finished-at="2021-01-28T12:50:50 EST" duration-ms="7847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:50:50 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:51:24 EST" duration-ms="33203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=, Expiration Year=, Expiration Month=, Billing State=, TCID=TC3, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=, Password=cGFzc3dvcmQxMjM=, Security Code=, Test Case=All Fields blank, Zip Code=, City=, Name on card=, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:51:24 EST" name="quit" finished-at="2021-01-28T12:51:24 EST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:51:24 EST" name="setUpBrowser" finished-at="2021-01-28T12:51:30 EST" duration-ms="6198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:51:30 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:52:03 EST" duration-ms="32650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC4, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=, Password=cGFzc3dvcmQxMjM=, Security Code=3453, Test Case=Empty Card No, Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:03 EST" name="quit" finished-at="2021-01-28T12:52:03 EST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:03 EST" name="setUpBrowser" finished-at="2021-01-28T12:52:10 EST" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:10 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:52:44 EST" duration-ms="34401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=, Expiration Month=, Billing State=Rhode Island, TCID=TC5, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890125, Password=cGFzc3dvcmQxMjM=, Security Code=3454, Test Case=Empty Expiration Month and Expiration Year , Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:44 EST" name="quit" finished-at="2021-01-28T12:52:44 EST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:44 EST" name="setUpBrowser" finished-at="2021-01-28T12:52:50 EST" duration-ms="5810" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:52:50 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:53:23 EST" duration-ms="32854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC6, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890126, Password=cGFzc3dvcmQxMjM=, Security Code=, Test Case=Empty Security Code and Zip Code, Zip Code=, City=Providence, Name on card=SS, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:53:23 EST" name="quit" finished-at="2021-01-28T12:53:23 EST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:53:23 EST" name="setUpBrowser" finished-at="2021-01-28T12:53:30 EST" duration-ms="6440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:53:30 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:54:03 EST" duration-ms="33170" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC7, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890126, Password=cGFzc3dvcmQxMjM=, Security Code=3454, Test Case=Empty Billing Address and City, Zip Code=67895, City=, Name on card=SS, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:03 EST" name="quit" finished-at="2021-01-28T12:54:03 EST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:03 EST" name="setUpBrowser" finished-at="2021-01-28T12:54:13 EST" duration-ms="10149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="ValidateMyWallet(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:13 EST" name="ValidateMyWallet" data-provider="dd-dataprovider" finished-at="2021-01-28T12:54:48 EST" duration-ms="34637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=, TCID=TC8, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890126, Password=cGFzc3dvcmQxMjM=, Security Code=3454, Test Case=Empty State, Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Negative}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMyWallet -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:48 EST" name="quit" finished-at="2021-01-28T12:54:48 EST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:48 EST" name="setUpBrowser" finished-at="2021-01-28T12:54:55 EST" duration-ms="7221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="VerifyDeleteCard(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:54:55 EST" name="VerifyDeleteCard" data-provider="dd-dataprovider" finished-at="2021-01-28T12:55:16 EST" duration-ms="21109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC11, SheetName=Testdata2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890123, Password=cGFzc3dvcmQxMjM=, Security Code=3460, Test Case=Delete Card Details, Zip Code=19240, City=Providence, Name on card=SS, TestScenario=Positive}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteCard -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:16 EST" name="quit" finished-at="2021-01-28T12:55:17 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:17 EST" name="setUpBrowser" finished-at="2021-01-28T12:55:24 EST" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="VerifySetDefaultCard(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:24 EST" name="VerifySetDefaultCard" data-provider="dd-dataprovider" finished-at="2021-01-28T12:55:43 EST" duration-ms="19577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC9, SheetName=TestData2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890123, Password=cGFzc3dvcmQxMjM=, Security Code=3451, Test Case=Verify Set As default option, Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Positive}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySetDefaultCard -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:43 EST" name="quit" finished-at="2021-01-28T12:55:43 EST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:43 EST" name="setUpBrowser" finished-at="2021-01-28T12:55:50 EST" duration-ms="6253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="VerifyWalletDisplay(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:55:50 EST" name="VerifyWalletDisplay" data-provider="dd-dataprovider" finished-at="2021-01-28T12:56:18 EST" duration-ms="28462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC1, SheetName=TestData1, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890123, Password=cGFzc3dvcmQxMjM=, Security Code=3451, Test Case=Verify My Wallet Page display, Zip Code=67895, City=Providence, Name on card=SS, TestScenario=Positive}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWalletDisplay -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:56:18 EST" name="quit" finished-at="2021-01-28T12:56:18 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:56:18 EST" name="setUpBrowser" finished-at="2021-01-28T12:56:25 EST" duration-ms="6949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="VerifyEditOnCard(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:56:25 EST" name="VerifyEditOnCard" data-provider="dd-dataprovider" finished-at="2021-01-28T12:56:53 EST" duration-ms="27626" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Street Address=2345A, Expiration Year=2030, Expiration Month=04-April, Billing State=Rhode Island, TCID=TC10, SheetName=TestData2, Runmode=Yes, UserName=srikanthtesting100@gmail.com, Card Number=67890123, Password=cGFzc3dvcmQxMjM=, Security Code=3459, Test Case=Edit Card Details, Zip Code=19247, City=Providence, Name on card=SS, TestScenario=Positive}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditOnCard -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:56:53 EST" name="quit" finished-at="2021-01-28T12:56:53 EST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dollardays.testcases.MyWalletTestCase@2a65fe7c]" started-at="2021-01-28T12:56:53 EST" name="afterClass" finished-at="2021-01-28T12:56:53 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.MyWalletTestCase -->
+      <class name="com.dollardays.testcases.LoginTestcase">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:56:53 EST" name="beforeClass" finished-at="2021-01-28T12:56:53 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:56:53 EST" name="setUpBrowser" finished-at="2021-01-28T12:57:00 EST" duration-ms="7058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="InvalidPassword(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:00 EST" name="InvalidPassword" data-provider="dd-dataprovider" finished-at="2021-01-28T12:57:06 EST" duration-ms="5713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +264,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidPassword -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:34 EST" name="quit" finished-at="2021-01-27T23:02:34 EST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:06 EST" name="quit" finished-at="2021-01-28T12:57:06 EST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:34 EST" name="setUpBrowser" finished-at="2021-01-27T23:02:40 EST" duration-ms="5801" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:06 EST" name="setUpBrowser" finished-at="2021-01-28T12:57:13 EST" duration-ms="6528" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="InvalidUsername(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:40 EST" name="InvalidUsername" data-provider="dd-dataprovider" finished-at="2021-01-27T23:02:45 EST" duration-ms="5213" status="PASS">
+        <test-method signature="InvalidUsername(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:13 EST" name="InvalidUsername" data-provider="dd-dataprovider" finished-at="2021-01-28T12:57:19 EST" duration-ms="6255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,15 +283,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUsername -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:45 EST" name="quit" finished-at="2021-01-27T23:02:45 EST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:19 EST" name="quit" finished-at="2021-01-28T12:57:19 EST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:45 EST" name="setUpBrowser" finished-at="2021-01-27T23:02:53 EST" duration-ms="7769" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:19 EST" name="setUpBrowser" finished-at="2021-01-28T12:57:26 EST" duration-ms="6842" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method signature="ValidLogin(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:02:53 EST" name="ValidLogin" data-provider="dd-dataprovider" finished-at="2021-01-27T23:03:08 EST" duration-ms="15208" status="PASS">
+        <test-method signature="ValidLogin(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:26 EST" name="ValidLogin" data-provider="dd-dataprovider" finished-at="2021-01-28T12:57:39 EST" duration-ms="13340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +302,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidLogin -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:03:08 EST" name="quit" finished-at="2021-01-27T23:03:08 EST" duration-ms="148" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:39 EST" name="quit" finished-at="2021-01-28T12:57:39 EST" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dollardays.testcases.LoginTestcase@351d00c0]" started-at="2021-01-27T23:03:08 EST" name="afterClass" finished-at="2021-01-27T23:03:08 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.dollardays.testcases.LoginTestcase@4135c3b]" started-at="2021-01-28T12:57:39 EST" name="afterClass" finished-at="2021-01-28T12:57:39 EST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
