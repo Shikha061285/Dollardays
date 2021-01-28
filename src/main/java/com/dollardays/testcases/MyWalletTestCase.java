@@ -71,7 +71,7 @@ public class MyWalletTestCase extends BaseTest
 	// Validating the data entered from excel sheet
 
 	
-	 @DDDataProvider(datafile = "testdata/wallet.xlsx", sheetName ="TestData1",testcaseID = "TC5", runmode = "Yes")
+	 @DDDataProvider(datafile = "testdata/wallet.xlsx", sheetName ="TestData1",testcaseID = "", runmode = "Yes")
 	  
 	  @Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	  public void ValidateMyWallet(Hashtable<String, String> datatable) throws InterruptedException, UnsupportedEncodingException, GeneralSecurityException

@@ -22,7 +22,7 @@ public class LoginTestcase extends BaseTest
 {
 
 	//Login with valid credentials
-	@DDDataProvider(datafile = "testdata/logintestdata.xlsx", sheetName = "TestData",  testcaseID = "TC1", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/wallet.xlsx", sheetName = "TestData2",  testcaseID = "TC12", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void ValidLogin(Hashtable<String, String> datatable) throws Exception
 	{
@@ -43,7 +43,7 @@ public class LoginTestcase extends BaseTest
 	}   
 	
 	 //login with Invalid password  
-	@DDDataProvider(datafile = "testdata/logintestdata.xlsx", sheetName = "TestData",  testcaseID = "TC2", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/wallet.xlsx", sheetName = "TestData2",  testcaseID = "TC13", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
 	public void InvalidPassword(Hashtable<String, String> datatable) throws Exception
 	{
@@ -70,7 +70,7 @@ public class LoginTestcase extends BaseTest
 		
 	
 	//login with invalid username
-	@DDDataProvider(datafile = "testdata/logintestdata.xlsx", sheetName = "TestData",  testcaseID = "TC3", runmode = "Yes")
+	@DDDataProvider(datafile = "testdata/wallet.xlsx", sheetName = "TestData2",  testcaseID = "TC14", runmode = "Yes")
 	@Test(dataProvider = "dd-dataprovider", dataProviderClass = TestUtil.class)
     public void InvalidUsername(Hashtable<String, String> datatable) throws Exception
     {

@@ -10,6 +10,7 @@
 				
 		<classes>
 			 <class name="com.dollardays.testcases.MyWalletTestCase" />
+			 <class name ="com.dollardays.testcases.LoginTestCase" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
