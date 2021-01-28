@@ -143,26 +143,13 @@ public class BaseTest extends MT {
 		Thread.sleep(1000);
 		ExtentTestManager.getTest().log(Status.PASS, "Login Successful.");
 
-		/*ExtentTestManager.getTest().log(Status.INFO, "Search and open Product description page.");
-		SearchPage searchpage = new SearchPage(driver);
-		Thread.sleep(1000);
-		searchpage.getSearchBar().sendKeys("backpack");// li[contains(text(),'SKU #2344871')]
-		Thread.sleep(1000);
-		searchpage.getsearchBtn().click();
-		Thread.sleep(1000);
-
-		driver.findElement(By.xpath(
-				"//a[@href='/i2323196-wholesale-15-forward-classic-school-backpack-with-side-mesh-pocket-4-colors.html'][contains(text(),'15\" Forward Classic School Backpack with Side Mesh')]"))
-				.click();
-		Thread.sleep(1000);
-		ExtentTestManager.getTest().log(Status.PASS, "Search and open Product description page successful.");*/
 
 	}
 
 	@AfterMethod
 	public void quit() {
-	//driver.close();
-		//driver.quit();
+	driver.close();
+		driver.quit();
 	}
 
 }

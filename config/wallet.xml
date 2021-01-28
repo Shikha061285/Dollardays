@@ -9,8 +9,8 @@
 	<test name="Dollar Days Test">
 				
 		<classes>
-			 <class name="com.dollardays.testcases.MyWalletTestCase" />
-			 <class name ="com.dollardays.testcases.LoginTestCase" />
+			<class name="com.dollardays.testcases.MyWalletTestCase" />
+			 <class name ="com.dollardays.testcases.LoginTestcase" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
